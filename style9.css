@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a, button {
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.cta{
+    margin-left: auto;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a :hover {
+   color: aquamarine;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: blue;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+
+button :hover {
+    background-color: rgba(0, 136, 169, 0.9);
+}
+
+.Hero {
+    text-align: center;
+    margin: 30px;
+}
+
+.cta-section {
+    text-align: center;
+}
+
+.cta-btn {
+    color: white;
+    background-color: blue;
+    padding: 10px 30px;
+    border-radius: 15px;
+    font-size: 15px;   
+}
+
+footer{
+    text-align:justify
+    padding: 60px;
+}
+
+h2{
+    margin: 30px;
+}
